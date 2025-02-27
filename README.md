@@ -31,6 +31,9 @@ pip install -r requirements.txt
 ```python
 streamlit run app.py
 ```
+
+![](demo.png)
+
 ### 界面功能说明
 在侧边栏配置搜索参数：
 -    关键字：项目名称/描述关键词
@@ -41,15 +44,7 @@ streamlit run app.py
 -	** AI 辅助分析**:（开发中）
 结果将以交互表格形式展示在主页
 
-### 高级配置
-如需提高API调用限额，请按以下方式初始化GitHubSearch：
-
-```python
-gh_search = GitHubSearch(token="your_github_token")
-```
-
 ### 项目结构
-
 ├── app.py                 # 主程序入口
 ├── requirements.txt       # 依赖库列表
 └── utilities/
@@ -60,7 +55,7 @@ Pandas (数据处理)
 GitHub REST API v3
 
 ### 授权许可
-MIT License
+[MIT License](https://img.shields.io/badge/license-MIT-green)
 
 
 注意事项：
