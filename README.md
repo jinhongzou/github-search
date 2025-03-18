@@ -31,8 +31,11 @@ pip install -r requirements.txt
 ```python
 streamlit run app.py
 ```
-
+-   **用户关键字搜索：**
 ![](demo.png)
+
+-    **AI优化搜索**（非必须，需配置llm信息）：
+![](demo2.png)
 
 ### 界面功能说明
 在侧边栏配置搜索参数：
